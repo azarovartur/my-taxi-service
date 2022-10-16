@@ -116,13 +116,18 @@ my-taxi-service
 │   README.md
 ```
 ## Technologies:
-* Application server: Apache Tomcat
-* Database: MySql
-* Java Servlet, JSP, JSTL, JDBC API.
+* Java 11
+* Java Servlet
+* JSP
+* JSTL
+* JDBC API
+* Apache Tomcat 9.0.65
+* MySQL
+* HTML
 
 ## Instructions to run the project:
 To start this project you need to do next steps:
-1. Install and configure Apache Tomcat
+1. Install and configure Apache Tomcat 9.0.65
 2. Install MySQL and MySQL Workbench
 3. Use the script from "src/main/resources/init_db.sql" to create schema and all tables.
 4. Set credentials of your MySQL DB in "src/main/java/taxi/util/ConnectionUtil.java"
